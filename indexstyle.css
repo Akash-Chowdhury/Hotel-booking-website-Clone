@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Architects Daughter', cursive;
+}
+.navbar{
+     border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 98%;
+    align-items: center;
+    padding: 10px;
+}
+.navmbl, .navitems
+{
+    display: none;
+}
+.navlink a{
+    font-weight: 600;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.navlink button{
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(100, 98, 98);
+    cursor: pointer;
+    margin-left: 5vw;
+    font-size: medium;
+    margin-right: 25px;
+}
+
+.navbar h3
+{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    /* font-weight: 800; */
+    color: #df293a;
+    font-weight: 900;
+    
+    text-shadow: 5px 5px 12px rgb(33, 33, 33);
+}
+.navbar a{
+    margin-left: 5vw;
+}
+
+.search h2{
+    padding-top: 50px;
+    background:linear-gradient(135.46deg,#d11450,#df293a);
+    color: white;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+}
+.search form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.search form input{
+    width: 35vw;
+    height: 6vh;
+    border-end-start-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.search form button{
+    width: 10vw;
+    height: 6vh;
+    padding: 10px;
+    background-color: #1ab64f;
+    border: 1px solid black;
+    color: white;
+}
+.offer{
+    margin: 10px;
+    margin-top: 5vh;
+}
+.offer img{
+    width: 100%;
+    height: 20vh;
+}
+.contlast
+{
+    display: flex;
+    margin-top: 30px;
+}
+.box1{
+    width: 50%;
+    height: 40vh;
+}
+#left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    margin-top: 10px;
+}
+#left
+{
+    margin-left: 5px;
+    
+}
+#right
+{
+ padding-left: 15px;
+ margin-top: 5vh;
+}
+#right p{
+    margin: 5px;
+}
+#right span{
+    margin: 5px;
+}
+#right li{
+    margin-left: 30px;
+    margin-top: 1vh;
+}
+#right li a{
+   text-decoration: none;
+   color: black;
+   font-size: small;
+}
+#right #a{
+    color: blue;
+}
+#right #b{
+    color: red;
+}
+#right #c{
+    color: skyblue;
+}
+#right #d{
+    color: pink;
+}
+#right #e{
+    color: green;
+}
+.foot{
+    background-color: #6d787d;
+    width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+}
+.top1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+    padding-top: 4vh;
+    border-bottom: 1px solid black;
+    padding-bottom: 4vh;
+}
+.lft
+{
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 3px 6px 15px black;
+}
+.rght input{
+    width: 15vw;
+    height: 3vh;
+    padding: 5px;
+    border: none;
+    border-end-start-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.rght button
+{
+    height: 5vh;
+    width: 12vw;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    font-size: 0.9 rem;
+}
+.developer
+{
+     display: flex;
+     margin-top: 8vh;
+     margin-left: 4vw;
+
+}
+.open_button
+{
+    padding: 5px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-shadow: 3px 6px 15px black;
+}
+.popup1 {
+    display: none;
+    position: fixed;
+    bottom: 35%;
+    right: 38%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+    border-width: 6px;
+    background:white;
+}
+.popup1 h2 a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+.popup1 h4 a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+.popup1 .btn-cancel{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 110px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #d11450;
+    
+}
+.middleup
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.item{
+    box-shadow: 1px 1px 1px 1px grey;
+    margin: 1vw;
+    display: block;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.item:hover
+{
+    box-shadow: 1px 1px 3px 2px grey;
+}
+.item img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+.imgbuttom
+{
+    text-align: center;
+    padding: 10px 20px;
+}
+.imgbtn
+{
+    border: none;
+    background: transparent;
+}
+.imgback
+{
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg); 
+}
+.imgfront .imgback {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .detail{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 38%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 300px;
+    /* height: 300px; */
+    padding: 10px;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+    border-width: 6px;
+    background:white;
+}
+.detail h2 a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+.detail h4 a{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+.detail .btn-cancel{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 110px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #d11450;
+    
+}
+.detail form input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+.submit{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 105px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(99, 94, 237);
+}
+
+
+.login{
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 38%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 300px;
+    padding: 10px;
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+    border-width: 6px;
+    background:white;
+}
+.login h2 {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.login h4 {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+.login .btn-cancel{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 110px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #d11450;
+    
+}
+.login form input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+
+@media only screen and (max-width: 930px)
+{
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .navbar
+    {
+        display: none;
+    }
+    .navmbl{
+        display: flex;
+        justify-content: space-between;
+     }
+    .navmbl h3{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 1.8em;
+        text-decoration: none;
+        color: #df293a;
+        font-weight: 900;
+        margin: 15px;
+        text-shadow: 5px 5px 12px rgb(33, 33, 33);
+    }
+     .icon
+    {
+        margin-top: 15px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .icon div
+    {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        border-radius: 5px;
+        margin: 6px 0;
+        margin-right: 4vw;
+    }
+
+    .navitems
+    {
+        width: 50%;
+        height: 100%;
+        background:linear-gradient(135.46deg,#d11450,#df293a);
+        text-shadow: 5px 5px 12px rgb(33, 33, 33);
+        position: fixed;
+        z-index: 9;
+    }
+    .navitems a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin: 10px;
+        margin-left: 20px;
+        
+    }
+    .navitems button{
+        margin-top: 15px;
+        margin-left: 20px;
+        background: transparent;
+        color: white;
+        border: none;
+        font-size: 1.1em;
+        text-shadow: 5px 5px 12px rgb(33, 33, 33);
+    }
+    .search h2{
+        font-size: 1.7em;
+    }
+    .search form input{
+        width: 60vw;
+        height: 6vh;
+        border-end-start-radius: 15px;
+        border-top-left-radius: 15px;
+        padding: 10px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px grey;
+        font-size: 0.9em;
+    }
+    .search form button{
+        width: 18vw;
+        height: 6vh;
+        padding: 10px;
+        background-color: #1ab64f;
+        border: 1px solid black;
+        color: white;
+        font-size: 0.9em;
+    }
+    .contlast
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .contlast #left
+    {
+        width: 93%;
+    }
+    .contlast #right
+    {
+        width: 90%;
+    }
+    .top1{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .lft, .middle{
+        margin-bottom: 30px;
+    }
+    .rght form input {
+        width: 40vw;
+    }
+    .rght form button {
+        width: 20vw;
+        height: 4.5vh;
+    }
+    .popup1
+    {
+        top: 20%;
+        left: 6%;
+    }
+    .login
+    {
+        top: 20%;
+        left: 6%;
+    }
+    .detail
+    {
+        top: 20%;
+        left: 5%;
+    }
+}
